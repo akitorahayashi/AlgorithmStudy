@@ -1,0 +1,12 @@
+# Ignore node_modules at the root level
+node_modules/
+
+# Ignore lock files at all levels
+package-lock.json
+
+# Python cache and virtual environment files
+__pycache__/
+*.py[cod]
+
+# macOS system files
+.DS_Store
