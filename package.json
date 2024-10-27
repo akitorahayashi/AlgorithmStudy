@@ -1,23 +1,28 @@
 {
   "name": "algorithmstudy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A collection of algorithm problems and solutions",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No global tests specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "clean": "rm -rf node_modules && rm -f package-lock.json",
+    "install-all": "npm install && (cd pair_matching && npm install)"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akitorahayashi/AlgorithmStudy.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["algorithm", "study", "coding", "problems"],
+  "author": "Akito Hayashi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akitorahayashi/AlgorithmStudy/issues"
   },
   "homepage": "https://github.com/akitorahayashi/AlgorithmStudy#readme",
   "devDependencies": {
-    "@types/node": "^22.8.1"
+    "@types/node": "^22.8.1",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
   }
 }
