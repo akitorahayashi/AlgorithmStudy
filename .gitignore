@@ -1,14 +1,27 @@
-# Ignore node_modules at all levels
+# Node.jsモジュール
 node_modules/
-**/node_modules/
 
-# Ignore lock files at all levels
+# TypeScript出力先ディレクトリ（必要に応じて）
+dist/
+
+# パッケージマネージャのロックファイル（通常は含めることを推奨）
 package-lock.json
-**/package-lock.json
+yarn.lock
 
-# Python cache and virtual environment files
+# 環境設定ファイル
+.env
+
+# TypeScriptキャッシュファイル
+*.tsbuildinfo
+
+# macOSシステムファイル
+.DS_Store
+
+# Pythonキャッシュと仮想環境ファイル
 __pycache__/
 *.py[cod]
 
-# macOS system files
-.DS_Store
+# IDEやエディタの設定ファイル
+.vscode/
+.idea/
+*.swp

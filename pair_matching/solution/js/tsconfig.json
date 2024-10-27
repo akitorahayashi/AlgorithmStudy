@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",                         // 出力するJavaScriptのバージョン
+    "module": "commonjs",                    // モジュールの形式をCommonJSに設定
+    "esModuleInterop": true,                 // ESモジュールの互換性を有効にする
+    "strict": true,                          // 厳格な型チェックを有効にする
+    "skipLibCheck": true                     // ライブラリの型チェックをスキップする
+  },
+  "include": [
+    "./**/*.ts"                              // このディレクトリ内のすべてのTypeScriptファイルを含める
+  ]
+}

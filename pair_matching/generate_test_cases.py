@@ -1,4 +1,3 @@
-# generate_test_cases.py
 import json
 
 # テストケースの定義
@@ -79,3 +78,6 @@ test_cases = [
     3
     """
 ]
+
+# テストケースをJSONとして出力
+print(json.dumps(test_cases))

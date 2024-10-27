@@ -1,15 +1,13 @@
 {
   "name": "pair_matching",
   "version": "1.0.0",
-  "type": "module",
-  "description": "Pair matching solution module",
-  "main": "main.js",
+  "main": "main.ts", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
-    "format": "prettier --write ."
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "start": "ts-node /Users/hayashiakitora/Develop/AlgorithmStudy/pair_matching/solution/js/main.ts"
+},
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.x.x",
+    "ts-node": "^10.x.x"
+  }
 }
